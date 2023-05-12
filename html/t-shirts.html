@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T-shirts</title>
-    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../main.css">
 </head>
 <body>
     <!-- header navigation -->
     <header>
         <div class="header-container container">
-            <button type="button" class="header-btn"></button>
+            <button type="button" class="header-btn">
+                <svg class="nav-them-icon">
+                    <use href=""></use>
+                </svg>
+            </button>
 
-            <a href="" class="header-logo">TAKEOFF</a>
+            <a href="./main.html" class="header-logo">TAKEOFF</a>
 
             <div class="nav-container">
                 <nav>
@@ -71,28 +79,28 @@
 
                 <ul class="catalog-items">
                     <li class="catalog-item"><a href="" class="active">CLOTHING</a></li>
-                    <li class="catalog-item"><a href="">SHOES</a></li>
+                    <li class="catalog-item"><a href="./shous.html">SHOES</a></li>
                     <li class="catalog-item"><a href="">ACCESSORIES</a></li>
                     <li class="catalog-item"><a href="">BAGS</a></li>
                     <li class="catalog-item"><a href="" class="sale-link">SALE</a></li>
                 </ul>
 
                 <ul class="catalog-btn-items">
-                    <li class="catalog-btn-item"><button class="catalog-btn active-btn" type="button"><a href="">T-Shirts</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Long sleeves</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Shirts</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Polo</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Hoodies</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Cardigans</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Sweatshirts</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Jackets</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Vests</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Jeans</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Trousers</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Shorts</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Nightwear</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Beachwear</a></button></li>
-                    <li class="catalog-btn-item"><button class="catalog-btn" type="button"><a href="">Outerwear</a></button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn active-btn" type="button">T-Shirts</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Long sleeves</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Shirts</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Polo</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Hoodies</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Cardigans</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Sweatshirts</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Jackets</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Vests</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Jeans</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Trousers</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Shorts</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Nightwear</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Beachwear</button></li>
+                    <li class="catalog-btn-item"><button class="catalog-btn" type="button">Outerwear</button></li>
                 </ul>
 
             </div>
@@ -100,25 +108,27 @@
         <!-- /main section -->
 
         <!-- clothing cards section -->
-        <section class="clothing-section section">
+        <section class="card-section section">
             <h2 class="visually-hidden">Clothing cards</h2>
-            <div class="clothing-container container">
-                <ul class="shirts-items">
-                    <li class="shirts-item">
-                        <div class="shirts-container">
-                            <h3 class="shirts-subtitle"></h3>
+            <div class="cards-container container">
+                <ul class="card-items">
+                    <li class="card-item">
+                        <a href="" class="card-link"></a>
                             <div class="card-container">
-                                <img src="" alt="T-shirts">
-                                <svg class="like-icon">
-                                    <use></use>
-                                </svg>
+                                <h3 class="card-subtitle"></h3>
+                                <div class="for-card-container">
+                                    <img src="" alt="T-shirts">
+                                    <svg class="like-icon">
+                                        <use></use>
+                                    </svg>
+                                    <p class="catalog-price">€ 666</p>
+                                </div>
+                                <button class="buy-btn">BUY</button>
                             </div>
-                            <p class="catalog-price"></p>
-                            <button class="buy-btn">BUY</button>
-                        </div>
-                    </li> 
+                        </a>
+                    </li>
                     <!-- *16 cards -->
-                    
+        
                 </ul>
             </div>
         </section>

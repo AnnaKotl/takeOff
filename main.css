@@ -1,7 +1,11 @@
 
 
 
-
+* {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 
 .visually-hidden {
     position: absolute !important;
@@ -15,8 +19,48 @@
     white-space: nowrap;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+.section {
+    padding-top: px;
+}
+
 /* .logo {
     background: linear-gradient(to right, red 50%, blue 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 } */
+/* :is(:hover, :focus) */
